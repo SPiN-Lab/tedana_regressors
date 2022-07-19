@@ -15,7 +15,6 @@ coverage:
         threshold: 0
 
 ignore:
-  - 'template-package/tests/'
-  - 'template-package/due.py'
-  - 'template-package/_version.py'
-  - 'template-package/info.py'
+  - "tedana_regressors/tests/"
+  - "tedana_regressors/_version.py"
+  - "tedana_regressors/info.py"

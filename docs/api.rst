@@ -1,6 +1,6 @@
 .. _api_ref:
 
-.. currentmodule:: template-package
+.. currentmodule:: tedana_regressors
 
 ###
 API
@@ -10,21 +10,21 @@ API
 .. _api_module_ref:
 
 **************************************************
-:mod:`template-package.module`: Module description
+:mod:`tedana_regressors.module`: Module description
 **************************************************
 
-.. automodule:: template-package.module
+.. automodule:: tedana_regressors.module
    :no-members:
    :no-inherited-members:
 
-.. currentmodule:: template-package.module
+.. currentmodule:: tedana_regressors.module
 
 .. autosummary::
    :toctree: generated/
    :template: class.rst
 
-   template-package.module.Class
+   tedana_regressors.module.Class
 
    :template: function.rst
 
-   template-package.module.function
+   tedana_regressors.module.function

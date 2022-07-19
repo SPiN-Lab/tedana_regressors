@@ -19,8 +19,7 @@ exclude = '''
   )/
   | get_version.py
   | versioneer.py
-  | template-package/_version.py
-  | template-package/due.py
+  | tedana_regressors/_version.py
 )
 '''
 

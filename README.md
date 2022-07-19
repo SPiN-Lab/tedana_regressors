@@ -1,17 +1,18 @@
-# template-package
+# tedana_regressors
+
 A template repo to use for new repositories.
 
-[![Latest Version](https://img.shields.io/pypi/v/template-package.svg)](https://pypi.python.org/pypi/template-package/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/template-package.svg)](https://pypi.python.org/pypi/template-package/)
+[![Latest Version](https://img.shields.io/pypi/v/tedana_regressors.svg)](https://pypi.python.org/pypi/tedana_regressors/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tedana_regressors.svg)](https://pypi.python.org/pypi/tedana_regressors/)
 [![DOI](https://zenodo.org/badge/111111.svg)](https://zenodo.org/badge/latestdoi/111111)
 [![License](https://img.shields.io/badge/License-LGPL%202.1-blue.svg)](https://opensource.org/licenses/LGPL-2.1)
-[![CircleCI](https://circleci.com/gh/ME-ICA/template-package.svg?style=shield)](https://circleci.com/gh/ME-ICA/template-package)
-[![Documentation Status](https://readthedocs.org/projects/template-package/badge/?version=latest)](http://template-package.readthedocs.io/en/latest/?badge=latest)
-[![Codecov](https://codecov.io/gh/me-ica/template-package/branch/main/graph/badge.svg)](https://codecov.io/gh/me-ica/template-package)
+[![CircleCI](https://circleci.com/gh/ME-ICA/tedana_regressors.svg?style=shield)](https://circleci.com/gh/ME-ICA/tedana_regressors)
+[![Documentation Status](https://readthedocs.org/projects/tedana_regressors/badge/?version=latest)](http://tedana_regressors.readthedocs.io/en/latest/?badge=latest)
+[![Codecov](https://codecov.io/gh/me-ica/tedana_regressors/branch/main/graph/badge.svg)](https://codecov.io/gh/me-ica/tedana_regressors)
 
 ## Instructions
 
-1. Replace `template-package` with the new repo name across the whole repository.
+1. Replace `tedana_regressors` with the new repo name across the whole repository.
 1. Enable the GitHub repository on Zenodo.
 1. Set up the GitHub repository on CircleCI.
 1. Set up the GitHub repository on ReadTheDocs.

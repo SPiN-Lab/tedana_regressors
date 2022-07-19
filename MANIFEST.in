@@ -1,2 +1,2 @@
 include versioneer.py
-include template-package/_version.py
+include tedana_regressors/_version.py
