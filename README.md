@@ -1,15 +1,5 @@
 # tedana_regressors
 
-A template repo to use for new repositories.
-
-[![Latest Version](https://img.shields.io/pypi/v/tedana_regressors.svg)](https://pypi.python.org/pypi/tedana_regressors/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tedana_regressors.svg)](https://pypi.python.org/pypi/tedana_regressors/)
-[![DOI](https://zenodo.org/badge/111111.svg)](https://zenodo.org/badge/latestdoi/111111)
-[![License](https://img.shields.io/badge/License-LGPL%202.1-blue.svg)](https://opensource.org/licenses/LGPL-2.1)
-[![CircleCI](https://circleci.com/gh/ME-ICA/tedana_regressors.svg?style=shield)](https://circleci.com/gh/ME-ICA/tedana_regressors)
-[![Documentation Status](https://readthedocs.org/projects/tedana_regressors/badge/?version=latest)](http://tedana_regressors.readthedocs.io/en/latest/?badge=latest)
-[![Codecov](https://codecov.io/gh/me-ica/tedana_regressors/branch/main/graph/badge.svg)](https://codecov.io/gh/me-ica/tedana_regressors)
-
 [![Latest Version](https://img.shields.io/pypi/v/tedana_regressors.svg)](https://pypi.python.org/pypi/tedana_regressors/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tedana_regressors.svg)](https://pypi.python.org/pypi/tedana_regressors/)
 [![DOI](https://zenodo.org/badge/515729660.svg)](https://zenodo.org/badge/latestdoi/515729660)
