@@ -4,6 +4,7 @@ import sys
 import pandas as pd
 
 from tedana_regressors import __version__
+from tedana_regressors.utils import df_to_matrix
 
 
 def _get_parser():
@@ -40,16 +41,31 @@ def tedana_regressors(ctab, mix, prefix):
 
     # Load component table and mixing matrix into pandas dataframes
     ctab_df = pd.read_csv(ctab, sep="\t", index_col=0)
-    mix_df = pd.read_csv(mix, sep="\t", index_col=0)
+    mix_df = pd.read_csv(mix, sep="\t", index_col=None)
 
-    # Extract the indices of the components that are "accepted" in ctab_df
-    accepted_components = ctab_df[ctab_df["accepted"] == 1].index
+    # Extract the indices of the components that have "accepted" in the "classification" column of
+    # ctab_df
+    accepted_components = ctab_df.loc[ctab_df["classification"] == "accepted"].index
 
-    # Create matrix with the columns of the mixing matrix corresponding to the accepted components
-    mix_accepted_df = mix_df.loc[:, accepted_components]
+    # Create matrix with the columns of the mixing matrix corresponding to keys in
+    # accepted_components and save it
+    df_to_matrix(mix_df, accepted_components).to_csv(prefix + "_accepted.1D", sep=" ", index=False)
 
-    # Save the mixing matrix with the accepted components to a file
-    mix_accepted_df.to_csv(prefix + "_accepted.1D", sep=" ", index=False)
+    # Extract the indices of the components that have "rejected" in the "classification" column of
+    # ctab_df
+    rejected_components = ctab_df.loc[ctab_df["classification"] == "rejected"].index
+    
+    # Create matrix with the columns of the mixing matrix corresponding to keys in
+    # rejected_components and save it
+    df_to_matrix(mix_df, rejected_components).to_csv(prefix + "_rejected.1D", sep=" ", index=False)
+
+    # Extract the indices of the components that have "ignored" in the "classification" column of
+    # ctab_df
+    ignored_components = ctab_df.loc[ctab_df["classification"] == "ignored"].index
+
+    # Create matrix with the columns of the mixing matrix corresponding to keys in
+    # ignored_components and save it
+    df_to_matrix(mix_df, ignored_components).to_csv(prefix + "_ignored.1D", sep=" ", index=False)
 
 
 def _main(argv=None):
