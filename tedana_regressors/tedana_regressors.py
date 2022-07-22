@@ -41,7 +41,7 @@ def _get_parser():
 def tedana_regressors(ctab, mix, prefix):
 
     # Load component table and mixing matrix into pandas dataframes
-    np.print("Loading component table and mixing matrix...")
+    print("Loading component table and mixing matrix...")
     ctab_df = pd.read_csv(ctab, sep="\t", index_col=0)
     mix_df = pd.read_csv(mix, sep="\t", index_col=None)
 
